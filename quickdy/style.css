@@ -1,34 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-*{
-    font-family:  "Quicksand", sans-serif;
-    
+* {
+    font-family: "Quicksand", sans-serif;
+
 }
-div{
+
+div {
     padding: 10px;
 
 }
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
     gap: 2px;
 }
-.container .item{
+
+.container .item {
     width: 12%;
 }
-.item img{
+
+.item img {
     border: 1px solid skyblue;
     border-radius: 10px;
     padding: 10px;
 }
-img:hover{
+
+img:hover {
     background-color: skyblue;
 }
-a{
+
+a {
     text-decoration: none;
-    color: black; 
-} 
+    color: black;
+}
+
 .all-cards .card img {
     position: relative;
     z-index: 2;
@@ -84,111 +91,84 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.img{
+
+.img {
     height: 40px;
     padding: 20px;
-}.companyname2{
-    
-        height: 50px;
-        width: 100px;
-        padding: 10px;
-        object-fit: contain;
-        border: 1px solid #27A8DF;
-        border-radius: 10px;
-        margin: 10px;
-        display: flex;
-    
-    }
-    .companyname{
-       
-            padding: 10px 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            position: relative;
-            animation: mymove infinite;
-            animation-duration: 2s;
-            animation-timing-function: ease-in-out;
-            top: 0;
-    }
+}
 
-    .footer-sec{
-  
-        padding: 40px 40px;
-        background-color: #57698e;
-        color: white;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        margin-top : 40px;
-        margin-left: 40px;
-        margin-right:40px;
-        
-     
-     }
-     .footer-inner{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-     
-     }
-     
-     .footer-sec .copy-right{
-        border-top: 1px solid #faebeb66;
-      padding-top: 15px;
-     }
-     ul{
-        padding: 0;
-     }
-     .footer-sec .footer-link ul li + li{
-        margin-top: 10px;
-        
-     
-     }
-     .logo li  {
-        display: inline;
-        margin-left: 10px;
-         }
-        li a{
-            color: #fff;
-        }
-        ul li{
-            list-style-type: none;
-        }
-        .box{
-            display: flex;
-            justify-content: center;
+.companyname2 {
 
-        }
-        .box1{
-            height: 100px;
-            background-color:blue;
-            width:100px;
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            flex-wrap: wrap;
-            
-            
-          
-            
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    object-fit: contain;
+    border: 1px solid #27A8DF;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
 
-        }
-        .box2{
-            height: 100px;
-            width:  100px;
-            background-color: red;
-            border:1px solid black;  
-            margin: auto;
-            display: flex;
-            color: #fff;
-        }
-        .box3{
-            height: 100px;
-            width: 100px;
-            background-color:green;
-            border:1px solid black; 
-            justify-content: center; 
-            margin: auto;
-            text-align: center;
-        }
-       
+}
+
+.companyname {
+
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    top: 0;
+}
+
+.footer-sec {
+
+    padding: 40px 40px;
+    background-color: #57698e;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer-sec .copy-right {
+    border-top: 1px solid #faebeb66;
+    padding-top: 15px;
+}
+
+ul {
+    padding: 0;
+}
+
+.footer-sec .footer-link ul li+li {
+    margin-top: 10px;
+}
+
+.logo li {
+    display: inline;
+    margin-left: 10px;
+}
+.fa-solid, .fas{
+    padding: 10px;
+}
+
+li a {
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+}
